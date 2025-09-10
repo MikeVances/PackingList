@@ -24,7 +24,3 @@ pytestcache/
 .coverage
 coverage.xml
 EOF
-
-git add .gitignore
-git commit -m "chore: add .gitignore for macOS & Python"
-git push
