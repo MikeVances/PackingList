@@ -1,0 +1,30 @@
+cat > .gitignore << 'EOF'
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+.venv/
+venv/
+ENV/
+.env
+.env.*
+
+# Tools & IDE
+.vscode/
+.idea/
+pytestcache/
+.pytest_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+EOF
+
+git add .gitignore
+git commit -m "chore: add .gitignore for macOS & Python"
+git push
